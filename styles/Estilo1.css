@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Cascadia Code';
-    src: url('/Newspaper/components/Cascadia Code Font/CascadiaCode.ttf') format('truetype');
-  }
-  
-  body {
-    font-family: 'Cascadia Code', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-  }
+  font-family: 'Cascadia Code';
+  src: url('/Newspaper/components/Cascadia Code Font/CascadiaCode.ttf') format('truetype');
+}
 
-header  {
-color: rgb(101, 0, 121);
-  }
+body {
+  font-family: 'Cascadia Code', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  color: rgb(101, 0, 121);
+}
