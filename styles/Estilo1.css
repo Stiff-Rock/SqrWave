@@ -5,8 +5,26 @@
 
 body {
   font-family: 'Cascadia Code', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+main {
+  background-color: #FDC5F5;
 }
 
 header {
-  color: rgb(101, 0, 121);
+  color: black;
+  background-color: #72DDF7;
+}
+
+nav {
+  background-color: #F7AEF8;
+}
+
+aside {
+  background-color: #F7AEF8;
+}
+
+footer {
+  background-color: #72DDF7;
 }
