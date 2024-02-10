@@ -5,7 +5,6 @@
 
 body {
   font-family: 'Cascadia Code', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 main {
@@ -19,12 +18,25 @@ header {
 
 nav {
   background-color: #F7AEF8;
+
 }
 
 aside {
   background-color: #F7AEF8;
+  float: right;
+  width: 244px;
 }
 
 footer {
   background-color: #72DDF7;
+}
+
+.fotos {
+  border: 2px solid;
+  color: black;
+}
+
+.pagina {
+  width: 1600px;
+  margin: auto;
 }
