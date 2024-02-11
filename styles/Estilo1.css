@@ -5,6 +5,13 @@
 
 body {
   font-family: 'Cascadia Code', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  background-image: url('../images/fondo.jpg');
+
+  background-size: cover;
+
+  background-attachment: fixed;
+
 }
 
 main {
@@ -29,6 +36,7 @@ aside {
 
 footer {
   background-color: #72DDF7;
+
 }
 
 .fotos {
