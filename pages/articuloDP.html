@@ -10,52 +10,59 @@
 </head>
 
 <header>
-    <h1>SqrWave</h1>
-    <nav>
-        <hr color="black">
-        <a href="../index.html"><img src="../images/inicio.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <a href="articulos.html"><img src="../images/articulos.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <a href="noticias.html"><img src="../images/noticias.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <!-- <a href="reseñas.html">Reseñas</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="foro.html">Foro</a> -->
-        <!--Uso la etiqueta &nbsp; para separar cada hipervínculo puesto que aún no sabemos css-->
-        <hr color="black">
-    </nav>
+    <section class="cabeceraTitle">
+        <h1 class="webTitle">SqrWave</h1>
+    </section>
+    <section class="cabeceraIcons">
+        <nav>
+            <a href="../index.html" class="icons">Inicio</a>
+            <a href="articulos.html" class="icons">Artículos</a>
+            <a href="noticias.html" class="icons">Noticias</a>
+        </nav>
+    </section>
 </header>
 
 <body>
-    <section class="pagina">
-        <main>
-            <article>
-                <div>
-                    <h2>Daft Punk - Epilogue, 3 años después</h2>
-                </div>
-                <section>
-                    <p><strong>Autor:</strong> Álex
-                        O'Donell&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03/04/2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18:20pm</p>
-                </section>
+    <main class="paginaEscrito">
+        <!--Sección con el cuerpo del artículo-->
+        <article class="escrito">
+            <!--Titulo y autor del artículo-->
+            <h2 class="cabeceraEscrito">Daft Punk - Epilogue, 3 años después</h2>
+            <section class="autoria">
+                <p class="autorInfo"><strong>Autor:</strong> Álex O'Donell</p>
+                <p class="autorInfo">03/04/2024</p>
+                <p class="autorInfo">18:20pm</p>
+            </section>
+            <section>
                 <p>Para sorpresa de todos y después de 8 sin sacar música, Daft Punk anunció su separación con un video
                     de un fragmento de su película "Daft Punk Electroma" donde se muestra a ambos robots explotando como
                     metafora de su disolución. Después de las desafortunadas noticias no podemos evitar preguntarnos: ¿A
                     que se dedican desde entonces?</p>
-                <section>
-                    <img class="fotos" width="250" height="150" title="Foto representando la separación del grupo"
-                        alt="Foto representando la separación del grupo" src="../images/epilogue.jpg" />
-                </section>
                 <p>Resulta que el duo han tomado rutas rutas muy diferentes, aunque clarifican que no van a dejar de
                     hacer música, simplemente no seguiran juntos como 'Daft Punk'. Por ejemplo, Guy-Manuel de
                     Homem-Christo recientemente co-produjo la canción "Modern Jam" con Travis Scott en su nuevo álbum de
                     "Utopía", por otro ladoThomas Bangalter ha compuesto una representación de "Mitologías" en la Ópera
                     Nacional de Burdeos. Esevidente que sus carreras músicales aún no han temrinado.</p>
-                <section><img class="fotos" width="210" height="150" title="" alt="" src="../images/duo.png" />
-                </section>
-            </article>
-        </main>
-    </section>
+                <p>Aunque Daft Punk haya decidido separarse como grupo, sus miembros continúan explorando
+                    nuevos proyectos y dejando su huella en la industria musical. Sus talentos individuales siguen
+                    brillando y seguramente nos seguirán sorprendiendo con su música en el futuro.</p>
+            </section>
+        </article>
+        <!--Sección con las fotos y videos referentes al artículo-->
+        <aside class="ContenedorMultimedia">
+            <section class="multimedia">
+                <img class="fotosZoom DosCincoxUnoCinco" title="Foto representando la separación del grupo"
+                    alt="Foto representando la separación del grupo" src="../images/epilogue.jpg" />
+            </section>
+            <section class="multimedia">
+                <img class="fotosZoom DosCincoxUnoCinco" title="Foto de los integrantes" alt="Foto de los integrantes"
+                    src="../images/duo.png" />
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <h3>&copy; 2024 SqrWave S.L</h3>
+    </footer>
 </body>
-<footer>
-    <hr width="" color="black">
-    <p>&copy; 2024 SqrWave S.L</p>
-</footer>
 
 </html>

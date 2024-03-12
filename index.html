@@ -2,39 +2,34 @@
 <html lang="es">
 
 <head>
-    <link rel="icon" type="image/favicon.ico" href="images\favicon.ico">
+    <link rel="icon" type="image/favicon.ico" href="images/Favicon.ico">
     <link rel="stylesheet" href="styles/Estilo1.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SqrWave</title>
 </head>
 
-<!--En el proyecto hay partes sin usar como el estilo, algunas partes del nav y la carpeta de 'components' con una fuente personalizada. 
-    Todas estas características se irán añadiendo en el futuro-->
-
 <header>
-    <h1>SqrWave</h1>
-    <nav>
-        <hr color="black">
-        <a href="index.html"><img class="icons" src="images/inicio.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <a href="pages/articulos.html"><img class="icons" src="images/articulos.png" width="30"
-                height="30"></a>&nbsp;&nbsp;&nbsp;
-        <a href="pages/noticias.html"><img class="icons" src="images/noticias.png" width="30"
-                height="30"></a>&nbsp;&nbsp;&nbsp;
-        <!-- <a href="reseñas.html">Reseñas</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="foro.html">Foro</a> -->
-        <!--Uso la etiqueta &nbsp; para separar cada hipervínculo puesto que aún no sabemos css-->
-        <hr color="black">
-    </nav>
+    <section class="cabeceraTitle">
+        <h1 class="webTitle">SqrWave</h1>
+    </section>
+    <section class="cabeceraIcons">
+        <!--Barra de navegación de la web fija-->
+        <nav>
+            <a href="index.html" class="icons">Inicio</a>
+            <a href="pages/articulos.html" class="icons">Artículos</a>
+            <a href="pages/noticias.html" class="icons">Noticias</a>
+        </nav>
+    </section>
 </header>
-<br>
+
 <body>
-    <section class="pagina">
-        <main>
-            <section>
-                <h2><u>Inicio</u></h2>
+    <main>
+        <section class="pagina">
+            <section class="titulos">
+                <p>Inicio</p>
             </section>
-            <br>
+            <!--Mensaje de bienvenida de la página-->
             <section>
                 <p>Sumérgete en un mundo lleno de información y novedades sobre tus artistas favoritos. Desde noticias
                     emocionantes sobre sus nuevos lanzamientos hasta reseñas detalladas y artículos profundos que
@@ -43,41 +38,76 @@
                     oportunidad de participar en nuestros foros de discusión, donde puedes conectar con otros fans
                     apasionados y compartir tus opiniones, ideas y descubrimientos musicales.</p>
             </section>
-            <!-- En el futuro se añadirá un carrusel de fotos que se vayan deslizando por la pantalla-->
-            <section>
+            <!--Fotos de artistas varios-->
+            <section class="contenedorFotos">
                 <!--Fotos en la fila de arriba-->
-                <img class="fotos" width=300 height=200 title="Justice" alt="Foto del duo 'Justice'"
+                <img class="fotosZoom fotoDosporDos" title="Justice" alt="Foto del duo 'Justice'"
                     src="images/justice.jpg" />&nbsp;
-                <img class="fotos" width=250 height=200 title="Daft Punk" alt="Foto del duo 'Daft Punk'"
+                <img class="fotosZoom fotoDosporDos" title="Daft Punk" alt="Foto del duo 'Daft Punk'"
                     src="images/daft.jpg" />&nbsp;
-                <img class="fotos" width=200 height=200 title="Tame Impala" alt="Foto del artista 'Tame Impala'"
+                <img class="fotosZoom fotoDosporDos" title="Tame Impala" alt="Foto del artista 'Tame Impala'"
                     src="images/tame.jpg" />&nbsp;
-                <img class="fotos" width=200 height=200 title="Jack Stauber" alt="Foto del artista 'Jack Stauber'"
+                <img class="fotosZoom fotoDosporDos" title="Jack Stauber" alt="Foto del artista 'Jack Stauber'"
                     src="images/jack.jpg" />&nbsp;
-                <img class="fotos" width=270 height=200 title="Mac DeMarco" alt="Foto del artista 'Mac DeMarco'"
-                    src="images/macde.jpg" />&nbsp;
-            </section>
-            <section>
                 <!--Fotos en la fila de abajo-->
-                <img class="fotos" width=270 height=200 title="Carpenter Brut" alt="Foto del artista 'Carpenter Brut'"
+                <img class="fotosZoom fotoDosporDos" title="Carpenter Brut" alt="Foto del artista 'Carpenter Brut'"
                     src="images/carpenter.jpg" />&nbsp;
-                <img class="fotos" width=200 height=200 title="Emil Rottmayer" alt="Foto del artista 'Emil Rottmayer'"
-                    src="images/emil.jpg" />&nbsp;
-                <img class="fotos" width=200 height=200 title="Parcels" alt="Foto del grupo 'Parcels'"
+                <img class="fotosZoom fotoDosporDos" title="Parcels" alt="Foto del grupo 'Parcels'"
                     src="images/parcels.jpg" />&nbsp;
-                <img class="fotos" width=200 height=200 title="Kaytranada" alt="Foto del artista 'Kaytranada'"
-                    src="images/kaytra.jpg" />&nbsp;
-                <img class="fotos" width=200 height=200 title="Everything Everything"
+                <img class="fotosZoom fotoDosporDos" title="Everything Everything"
                     alt="Foto del grupo 'Everything Everything'" src="images/ee.jpg" />&nbsp;
-                <img class="fotos" width=200 height=200 title="Tyler, The Creator"
+                <img class="fotosZoom fotoDosporDos" title="Tyler, The Creator"
                     alt="Foto del artista 'Tyler, The Creator'" src="images/tyler.jpg" />&nbsp;
             </section>
-        </main>
-    </section>
+        </section>
+        <!--Columnas con los artículos destacado y noticias más recientes, ambas contienen las imagenes clickables-->
+        <section id="contenedorColumnas">
+            <article id="ColumnaArt">
+                <section class="titulos">
+                    <p>Artículos destacados</p>
+                </section>
+                <p>Explora las opiniones musicales en SqrWave. Sumérgete en análisis perspicaces y puntos de vista
+                    únicos sobre tus artistas favoritos. ¡Descubre una nueva forma de experimentar la música con
+                    nosotros!</p>
+                <section class="contenedorClick">
+                    <a href="pages/articuloDP.html"><img class="fotos" width="150" height="150"
+                            title="Random Access Memories 10th Anniversary Edition"
+                            alt="Portada de Random Access Memories 10th Anniversary Edition"
+                            src="images/ram2.jpg" /></a>
+                    <p class="caption">Daft Punk 3 años después</p>
+                </section>
+                <section class="contenedorClick">
+                    <a href="pages/articuloEH.html"><img class="fotos" width="150" height="150" title="El Huervo"
+                            alt="Autoretrato ilustrado por El Huervo" src="images/huervo.jpg" /></a>
+                    <p class="caption">El Huervo, el polifacético</p>
+                </section>
+            </article>
+            <article id="ColumnaNot">
+                <section class="titulos">
+                    <p>Últimas noticias</p>
+                </section>
+                <p>Encuentra noticias sobre tus músicos favoritos y la actualidad de la industria musical. En
+                    SqrWave nos preocupamos por la calidad y veracidad de la información que brindamos.</p>
+                <section class="contenedorClick">
+                    <a href="pages/noticiaJ.html"><img class="fotos" width="150" height="150"
+                            title="Portada de 'HYPERDRAMA'" alt="Portada de 'HYPERDRAMA'"
+                            src="images/HYPERDRAMA.jpg" /></a>
+                    <p class="caption">Justice nos muestra nuevas canciones</p>
+                </section>
+                <section class="contenedorClick">
+                    <a href="pages/noticiaEE.html"><img class="fotos" width="150" height="150"
+                            title="Portada de 'Mountainhead'" alt="Portada de 'Mountainhead'"
+                            src="images/eemount.png" /></a>
+                    <p class="caption">Everything Everything publlica su nuevo álbum</p>
+                </section>
+            </article>
+        </section>
+    </main>
+    <!--Copyright de la página-->
+    <footer>
+        <h3>&copy; 2024 SqrWave S.L</h3>
+    </footer>
+
 </body>
-<footer>
-    <hr width="" color="black">
-    <p>&copy; 2024 SqrWave S.L</p>
-</footer>
 
 </html>

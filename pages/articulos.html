@@ -10,51 +10,53 @@
 </head>
 
 <header>
-    <h1>SqrWave</h1>
-    <nav>
-        <hr color="black">
-        <a href="../index.html"><img src="../images/inicio.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <a href="articulos.html"><img src="../images/articulos.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <a href="noticias.html"><img src="../images/noticias.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <!-- <a href="reseñas.html">Reseñas</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="foro.html">Foro</a> -->
-        <!--Uso la etiqueta &nbsp; para separar cada hipervínculo puesto que aún no sabemos css-->
-        <hr color="black">
+    <section class="cabeceraTitle">
+        <h1 class="webTitle">SqrWave</h1>
+    </section>
+    <section class="cabeceraIcons">
+        <nav>
+            <a href="../index.html" class="icons">Inicio</a>
+            <a href="articulos.html" class="icons">Artículos</a>
+            <a href="noticias.html" class="icons">Noticias</a>
+        </nav>
+    </section>
 </header>
 
 <body>
-    <section class="pagina">
-        </nav>
-        <main>
-            <section>
-                <h2><u>Artículos</u></h2>
+    <main>
+        <section class="pagina">
+            <section class="titulos">
+                <p>Artículos</p>
             </section>
-            <!--Esta web sirve de portal para acceder a todos los demas artículos que se irán añadiendo a la web-->
-            <article>
-                <section>
-                    <p>Aquí podrás encontrar artículos de opinión redactados por nuestros redactores oficiales de
-                        SqrWave y de otros redactores independientes a los que acogemos en nuestra plataforma para que
-                        todo el mundo tenga una voz. Os invitamos a que nos enviéis vuestros artículos sobre cualquier
-                        tema relacionado con la música que queráis ver publicado en la web. Para más información
-                        contactar por email a <a><u>SqrWaveWeb@gmail.com</u></a>.</p>
-                </section>
-                <section>
-                    <a href="articuloDP.html"><img class="fotos" width="200" height="200"
-                            title="Random Access Memories 10th Anniversary Edition"
+            <!--Esta página sirve de portal para acceder a todos los demas artículos de la web-->
+            <section>
+                <p>Aquí podrás encontrar artículos de opinión redactados por nuestros redactores oficiales de
+                    SqrWave y de otros redactores independientes a los que acogemos en nuestra plataforma para que
+                    todo el mundo tenga una voz. Os invitamos a que nos enviéis vuestros artículos sobre cualquier
+                    tema relacionado con la música que queráis ver publicado en la web. Para más información
+                    contactar por email a <a><u>SqrWaveWeb@gmail.com</u></a>.</p>
+            </section>
+            <!--Sección con los artículos con fotos clickables-->
+            <section class="escaparate">
+                <section class="contenedorClick">
+                    <a href="articuloDP.html"><img class="fotos" title="Random Access Memories 10th Anniversary Edition"
                             alt="Portada de Random Access Memories 10th Anniversary Edition"
                             src="../images/ram2.jpg" /></a>
-                    <span>Daft Punk 3 años después</span>
-                    <a href="articuloEH.html"><img class="fotos" width="200" height="200" title="El Huervo"
-                            alt="Autoretrato ilustrado por El Huervo" src="../images/huervo.jpg" /></a>
-                    <span>El Huervo, el polifacético</span>
+                    <p class="caption">Daft Punk 3 años después de su separación. Analizando sus trayectorias
+                        profesionales tras su disolución</p>
                 </section>
-            </article>
-        </main>
-    </section>
+                <section class="contenedorClick">
+                    <a href="articuloEH.html"><img class="fotos" title="El Huervo"
+                            alt="Autoretrato ilustrado por El Huervo" src="../images/huervo.jpg" /></a>
+                    <p class="caption">El Huervo, el polifacético artísta sueco conocido por sus pinturas al
+                        óleo, acuarelas y videojuegos.</p>
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <h3>&copy; 2024 SqrWave S.L</h3>
+    </footer>
 </body>
-<footer>
-    <hr width="" color="black">
-    <p>&copy; 2024 SqrWave S.L</p>
-</footer>
 
 </html>

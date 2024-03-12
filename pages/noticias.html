@@ -10,49 +10,52 @@
 </head>
 
 <header>
-    <h1>SqrWave</h1>
-    <nav>
-        <hr color="black">
-        <a href="../index.html"><img src="../images/inicio.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <a href="articulos.html"><img src="../images/articulos.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <a href="noticias.html"><img src="../images/noticias.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <!-- <a href="reseñas.html">Reseñas</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="foro.html">Foro</a> -->
-        <!--Uso la etiqueta &nbsp; para separar cada hipervínculo puesto que aún no sabemos css-->
-        <hr color="black">
-    </nav>
+    <section class="cabeceraTitle">
+        <h1 class="webTitle">SqrWave</h1>
+    </section>
+    <section class="cabeceraIcons">
+        <nav>
+            <a href="../index.html" class="icons">Inicio</a>
+            <a href="articulos.html" class="icons">Artículos</a>
+            <a href="noticias.html" class="icons">Noticias</a>
+        </nav>
+    </section>
 </header>
 
 <body>
-    <section class="pagina">
-
-        <main>
-            <section>
-                <h2><u>Noticias</u></h2>
+    <main>
+        <section class="pagina">
+            <section class="titulos">
+                <p>Noticias</p>
             </section>
-            <article>
-                <section>
-                    <p>Aquí podrás encontrar las últimas noticias sobre tus músicos favoritos y mantenerte al tanto de
-                        la actualidad de la industria musical. En SqrWave nos preocupamos por la calidad y veracidad de
-                        toda información que os brindamos y queremos ser una fuente de información confiable. Os
-                        invitamos a que cualquier inconsistencia o información falsa que encontreis lo notifiqueis al
-                        correo <a><u>SqrWaveWeb@gmail.com</u></a>.</p>
-                </section>
-                <section>
-                    <a href="noticiaJ.html"><img class="fotos" width="200" height="200" title="Portada de 'HYPERDRAMA'"
+            <!--Esta página sirve de portal para acceder a todas las demás noticias de la web-->
+            <section>
+                <p>Aquí podrás encontrar las últimas noticias sobre tus músicos favoritos y mantenerte al tanto de
+                    la actualidad de la industria musical. En SqrWave nos preocupamos por la calidad y veracidad de
+                    toda información que os brindamos y queremos ser una fuente de información confiable. Os
+                    invitamos a que cualquier inconsistencia o información falsa que encontreis lo notifiqueis al
+                    correo <a><u>SqrWaveWeb@gmail.com</u></a>.</p>
+            </section>
+            <!--Sección con las noticias con fotos clickables-->
+            <section class="escaparate">
+                <section class="contenedorClick">
+                    <a href="noticiaJ.html"><img class="fotos" title="Portada de 'HYPERDRAMA'"
                             alt="Portada de 'HYPERDRAMA'" src="../images/HYPERDRAMA.jpg" /></a>
-                    <span>Justice nos muestra nuevas canciones</span>
+                    <p class="caption">Justice nos muestra nuevas canciones del próximo álbum titulado
+                        'HYPERDRAMA'. Analizamos las nuveas pistas.</p>
                 </section>
-                <section>
-                    <!--Cada section será un artículo diferente-->
+                <section class="contenedorClick">
+                    <a href="noticiaEE.html"><img class="fotos" title="Portada de 'Mountainhead'"
+                            alt="Portada de 'Mountainhead'" src="../images/eemount.png" /></a>
+                    <p class="caption">Everything Everything publica su nuevo álbum 'Mountainhead', su 6ª obra en
+                        su discografía de indie rock. </p>
                 </section>
-            </article>
-        </main>
-    </section>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <h3>&copy; 2024 SqrWave S.L</h3>
+    </footer>
 </body>
-<footer>
-    <hr width="" color="black">
-    <p>&copy; 2024 SqrWave S.L</p>
-</footer>
 
 </html>

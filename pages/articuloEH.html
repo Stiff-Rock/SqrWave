@@ -10,38 +10,55 @@
 </head>
 
 <header>
-    <h1>SqrWave</h1>
-
-    <nav>
-        <hr color="black">
-        <a href="../index.html"><img src="../images/inicio.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <a href="articulos.html"><img src="../images/articulos.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <a href="noticias.html"><img src="../images/noticias.png" width="30" height="30"></a>&nbsp;&nbsp;&nbsp;
-        <!-- <a href="reseñas.html">Reseñas</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="foro.html">Foro</a> -->
-        <!--Uso la etiqueta &nbsp; para separar cada hipervínculo puesto que aún no sabemos css-->
-        <hr color="black">
-    </nav>
+    <section class="cabeceraTitle">
+        <h1 class="webTitle">SqrWave</h1>
+    </section>
+    <section class="cabeceraIcons">
+        <nav>
+            <a href="../index.html" class="icons">Inicio</a>
+            <a href="articulos.html" class="icons">Artículos</a>
+            <a href="noticias.html" class="icons">Noticias</a>
+        </nav>
+    </section>
 </header>
 
 <body>
-    <section class="pagina">
-        <main>
-            <article>
-                <div>
-                    <h2>El Huervo, el polifacético</h2>
-                </div>
-                <section>
-                    <p><strong>Autor:</strong> Carlos
-                        Torres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13/08/2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:43pm</p>
-                </section>
-            </article>
-        </main>
-    </section>
+    <main class="paginaEscrito">
+        <!--Sección con el cuerpo del artículo-->
+        <article class="escrito">
+            <!--Titulo y autor del artículo-->
+            <h2 class="cabeceraEscrito">El Huervo, el polifacético</h2>
+            <section class="autoria">
+                <p class="autorInfo"><strong>Autor:</strong> Carlos Torres</p>
+                <p class="autorInfo">13/08/2024</p>
+                <p class="autorInfo">7:43pm</p>
+            </section>
+            <section>
+                <p>El Huervo es un artista increíblemente polifacético. Su talento abarca diferentes disciplinas
+                    artísticas, como la música, la pintura y la ilustración. Con su música, logra crear atmósferas
+                    únicas y envolventes que transportan a los oyentes a otros mundos. Sus composiciones son una
+                    mezcla perfecta de sonidos electrónicos y melodías cautivadoras.</p>
+                <p>Pero su talento no se limita solo a la música. El Huervo también es un talentoso pintor e
+                    ilustrador. Sus obras están llenas de colores vibrantes y formas abstractas que transmiten
+                    emociones y sensaciones. Cada pincelada y cada trazo de sus ilustraciones revelan su pasión y
+                    creatividad.</p>
+                <p>Además, El Huervo también ha incursionado en el mundo de los videojuegos, creando arte para
+                    reconocidos títulos. Su estilo único y su habilidad para capturar la esencia de cada juego lo
+                    han convertido en un referente en la industria.</p>
+                <p>En resumen, El Huervo es un artista verdaderamente polifacético. Su talento y creatividad se
+                    reflejan en cada una de sus obras, ya sea a través de su música, sus pinturas o sus
+                    ilustraciones. Es un verdadero maestro en el arte de transmitir emociones y transportar a las
+                    personas a otros universos.</p>
+            </section>
+        </article>
+        <!--Sección con las fotos y videos referentes al artículo-->
+        <aside class="multimedia">
+            <img class="fotosZoom fotoDosporDos" alt="Ilustración de El Huervo" src="../images/ElHuervoIlus.jpg" />
+        </aside>
+    </main>
+    <footer>
+        <h3>&copy; 2024 SqrWave S.L</h3>
+    </footer>
 </body>
-<footer>
-    <hr width="" color="black">
-    <p>&copy; 2024 SqrWave S.L</p>
-</footer>
 
 </html>
